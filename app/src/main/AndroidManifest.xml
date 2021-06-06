@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.uniptcc.brasilqueimadas">
+
+    <application
+        android:name=".application.BrasilQueimadasApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_brasil_queimadas"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_brasil_queimadas"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BrasilQueimadas">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--
+             The API key for Google Maps-based APIs.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDyItTWwkb-cB9WME79qmJiLz8FUbdJjRQ" />
+
+        <activity
+            android:name=".activity.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

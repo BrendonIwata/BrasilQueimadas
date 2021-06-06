@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Brasil Queimadas</string>
+    <string name="without_internet">Você não está conectado a internet</string>
+    <string name="splash_label">Brasil Queimadas</string>
+    <string name="main_menu_label">Queimadas</string>
+    <string name="sem_focos_amazonas">Não há focos de incêncio no amazonas</string>
+    <string name="OK">OK</string>
+</resources>
